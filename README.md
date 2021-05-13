@@ -21,7 +21,6 @@ In this project you'll take take an almost completed e-commerce store and refact
 - [ ] Create a forked copy of this project.
 - [ ] Add your team lead as collaborator on Github.
 - [ ] Clone your OWN version of the repository in your terminal.
-- [ ] CD into the project base directory `cd react-shopping-cart`.
 - [ ] Download project dependencies by running `npm install`.
 - [ ] Start up the app using `npm start`.
 - [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
@@ -124,7 +123,7 @@ const { products, addItem } = useContext(ProductContext);
 
 - Let's start with our `ShoppingCart` component first. Go ahead and refactor the `ShoppingCart` route to no longer use render props. This will throw us an error, but we'll be able to resolve it quickly.
 
-- While were at it let's go ahead and remove the props from our navigation as well.
+- While we're at it let's go ahead and remove the props from our navigation as well.
 
 **STEP 7 - The final stretch**
 
