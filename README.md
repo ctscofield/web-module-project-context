@@ -123,7 +123,7 @@ const { products, addItem } = useContext(ProductContext);
 
 - Let's start with our `ShoppingCart` component first. Go ahead and refactor the `ShoppingCart` route to no longer use render props. This will throw us an error, but we'll be able to resolve it quickly.
 
-- While were at it let's go ahead and remove the props from our navigation as well.
+- While we're at it let's go ahead and remove the props from our navigation as well.
 
 **STEP 7 - The final stretch**
 
